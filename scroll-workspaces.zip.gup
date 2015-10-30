@@ -1,5 +1,0 @@
-#!bash -eu
-gup --always
-cd scroll-workspaces
-gup --clean -f --metadata
-zip -r "$1" *
